@@ -132,9 +132,6 @@ public class OpenCommand extends Command {
                 result.put(tag, String.format(MESSAGE_ERROR, tag, e.getMessage()));
             }
         });
-
-
-
         return result;
     }
 
